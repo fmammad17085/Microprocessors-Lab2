@@ -17,8 +17,8 @@ asm volatile ( //inline assembly block, run this code exactly as said
 
   //result printer here
 
-  Serial.print("Result = "); //say something without pressing enter
-  Serial.println(R18); //say enter and then press enter (create new line)
+  Serial.print("Result = "); 
+  Serial.println(R18); 
 }
 
 void loop() {
